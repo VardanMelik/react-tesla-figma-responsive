@@ -1,0 +1,164 @@
+.header {}
+
+.container {
+    width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 60px 0 43px;
+}
+
+.header__menu,
+.header__cart {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header__cart .menu__item {
+    margin: 30px;
+}
+
+.menu__item {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 2px transparent solid;
+    transition: 0.2s;
+}
+
+.item1 {
+    margin-right: 63.14px;
+}
+
+.item2 {
+    margin-right: 24.86px;
+}
+
+.item3 {
+    margin-right: 44px;
+}
+
+.item3 {
+    margin-right: 46px;
+}
+
+.menu__item:hover {
+    border-bottom: 2px #e51937 solid;
+    color: #e51937;
+}
+
+.tesla__title {
+    text-align: center;
+    background-image: url(../assets/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 594px;
+    margin-bottom: 26px;
+    /*opacity: 0.1;*/
+}
+
+.tesla__title h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 110px;
+}
+
+.tesla__title p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.tesla__info {
+    display: flex;
+    justify-content: center;
+}
+
+.info__block {
+    display: flex;
+    align-items: center;
+    margin-right: 81px;
+}
+
+.info_block_time {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+}
+
+.info_block_speed {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.info_block_time span {
+    margin-left: 6px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.info_block_img {
+    width: 46px;
+    margin-right: 14px;
+}
+
+.test__drive {
+    display: flex;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.test__drive img {
+    cursor: pointer;
+    margin-top: 26px;
+    width: 22px;
+    height: 22px;
+}
+
+.test__drive div {
+    margin-top: 28px;
+}
+
+.order {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E51937;
+    width: 160px;
+    height: 40px;
+    border: 2px solid #E51937;
+    min-width: 160px;
+    margin-left: 40px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.go_bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+    cursor: pointer;
+}
+
+.go_bottom img {
+    width: 28px;
+}
