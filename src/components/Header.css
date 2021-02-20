@@ -163,6 +163,78 @@ nav {
     width: 28px;
 }
 
+@media (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .menu__item {
+        display: none;
+    }
+    .tesla__title {
+        min-height: 200px;
+        background-size: contain;
+        background-position: center bottom;
+    }
+    .tesla__info {
+        flex-wrap: wrap;
+        margin-bottom: 63px;
+        /*justify-content: space-around;*/
+    }
+    nav {
+        margin: 24px 33px 94px 15px;
+    }
+    .tesla__title h1 {
+        font-weight: 600;
+        font-size: 90px;
+        line-height: 110px;
+    }
+    .tesla__title p {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .info__block {
+        margin-right: 65px;
+        margin-bottom: 56px;
+    }
+    .info__block:nth-child(2) {
+        margin-left: 0px;
+    }
+    .info__block:nth-child(2) .info__block img {
+        width: 38px;
+    }
+    /*
+    .tesla__info:nth-child(2) {
+        margin-right: 0;
+    }*/
+    .info__block img {
+        width: 65px;
+    }
+    .info_block_time {
+        font-size: 50px;
+        line-height: 61px;
+        margin-bottom: 2px;
+    }
+    .info_block_speed {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .test__drive {
+        margin-bottom: 16px;
+        line-height: 20px;
+        margin-left: 0;
+        margin-right: 25px;
+    }
+    .order {
+        width: 220px;
+        height: 55px;
+        font-size: 16px;
+        line-height: 55px;
+        color: #fff;
+        background: #E51937;
+    }
+}
+
 @media (max-width: 375px) {
     .menu__item {
         display: none;
@@ -177,6 +249,7 @@ nav {
     }
     .tesla__info {
         flex-wrap: wrap;
+        margin-bottom: 30px;
         justify-content: space-around;
     }
     nav {
@@ -193,7 +266,11 @@ nav {
         line-height: 12px;
     }
     .info__block {
-        /*margin-right: 41;*/
+        margin-right: 0px;
+        margin-bottom: 43;
+    }
+    .info__block:nth-child(2) {
+        margin-left: 20px;
     }
     .tesla__info:nth-child(2) {
         margin-right: 0;
@@ -206,5 +283,16 @@ nav {
     .info_block_speed {
         font-size: 10px;
         line-height: 10px;
+    }
+    .test__drive {
+        margin-bottom: 25px;
+    }
+    .order {
+        width: 160px;
+        height: 40px;
+        font-size: 13px;
+        line-height: 40px;
+        color: #fff;
+        background: #E51937;
     }
 }
